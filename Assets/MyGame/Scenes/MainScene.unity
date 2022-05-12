@@ -1399,6 +1399,7 @@ GameObject:
   m_Component:
   - component: {fileID: 632278333}
   - component: {fileID: 632278334}
+  - component: {fileID: 632278335}
   m_Layer: 0
   m_Name: FirstEggsManager
   m_TagString: Untagged
@@ -1434,7 +1435,26 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   EggOne: {fileID: 2013971058}
   EggTwo: {fileID: 60707316}
-  anim: {fileID: 0}
+  anim: {fileID: 632278335}
+--- !u!95 &632278335
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 632278332}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: f14fbeb1d9040dc489f4140eb399d341, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1001 &643738270
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1460,15 +1480,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: f9aca8a8f1a23c24ab79d8ee3219ed33, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -1.926
+      value: -0.676
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: f9aca8a8f1a23c24ab79d8ee3219ed33, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.7872206
+      value: 1.401
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: f9aca8a8f1a23c24ab79d8ee3219ed33, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -0.39468956
+      value: -0.454
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: f9aca8a8f1a23c24ab79d8ee3219ed33, type: 3}
       propertyPath: m_LocalRotation.w
@@ -1638,6 +1658,21 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.03010465, y: 0.022770178, z: 0.10256084}
   m_Center: {x: 0.012022507, y: 0.000000008168738, z: -0.012151248}
+--- !u!114 &684990619
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 684990612}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ccc63651f6f4e4944a31a7116a3f9666, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  EggOne: {fileID: 2013971058}
+  EggTwo: {fileID: 60707316}
+  anim: {fileID: 684990616}
 --- !u!1 &705507993
 GameObject:
   m_ObjectHideFlags: 0
@@ -3527,7 +3562,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &1739134232
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3759,7 +3794,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4577548989568170131, guid: 77acece532c74f7488b4452de52c0583, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4577548989568170135, guid: 77acece532c74f7488b4452de52c0583, type: 3}
       propertyPath: m_Pivot.x
@@ -3885,15 +3920,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: f9aca8a8f1a23c24ab79d8ee3219ed33, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -1.66
+      value: -0.646
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: f9aca8a8f1a23c24ab79d8ee3219ed33, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.7872206
+      value: 1.29
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: f9aca8a8f1a23c24ab79d8ee3219ed33, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 1.4
+      value: 0.919
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: f9aca8a8f1a23c24ab79d8ee3219ed33, type: 3}
       propertyPath: m_LocalRotation.w
