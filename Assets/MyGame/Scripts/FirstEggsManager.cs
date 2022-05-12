@@ -12,7 +12,7 @@ public class FirstEggsManager : MonoBehaviour
     {
         if (EggOne.Collided && EggOne.Collided)
         {
-            // anim.SetBool("allright", true);
+            anim.SetBool("OpenDoor", true);
         }
     }
 }
