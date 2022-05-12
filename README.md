@@ -27,6 +27,20 @@ Screenshots (concept and experience), Video
 
 For testing without a headset, use the XR Device Simulator (included in the xr interaction toolkit package):  https://www.youtube.com/watch?v=d4bTpkvBwrs
 
+## Minigame 1:
+
+Der Spieler betritt einen Raum, die Tür schließt sich hinter ihm und es findet sich ein Bild an der Wand mit 3 verschiedenen Eier Kombinationen. Vor der anderen Wand befinden sich zwei Körbe mit 'Rezepten' darüber. Aus einem weiteren Korb muss man sich das richtige Eier-resultat suchen und in die jeweiligen Körbe geben.
+
+## Minigame 1 Programmieren:
+
+Collided der Player (check Tag) mit dem Collider in dem jeweiligen Raum so schließt sich die Tür.
+OnCollisionEnter - Collidiert das richtige Ei mit dem richtigen Collider (Korb)?
+If every collision true - Die Tür öffnet sich wieder und der Player kann sich wieder in das Labyrinth begeben.
+
+## Minigame 2:
+
+## Minigame 2 Programmieren:
+
 ### Limitations/Problems: 
 
 Copyright by smeerws :)
