@@ -45,6 +45,8 @@ If every collision true - Die Tür öffnet sich wieder und der Player kann sich 
 1. Timer 30 Minuten
 2. Vogelgetswitscher Random Timer
 3. 1. Minigame fertig - Tür schließt und öffnet sich
+4. Ambient Music Plays OnAwake
+5. Blumen in der Wiese und Holz Wände
 
 ### Limitations/Problems: 
 
