@@ -37,10 +37,6 @@ Collided der Player (check Tag) mit dem Collider in dem jeweiligen Raum so schli
 OnCollisionEnter - Collidiert das richtige Ei mit dem richtigen Collider (Korb)?
 If every collision true - Die Tür öffnet sich wieder und der Player kann sich wieder in das Labyrinth begeben.
 
-## Minigame 2:
-
-## Minigame 2 Programmieren:
-
 ## Funktionen Standpoint 2. Milestone:
 1. Timer 30 Minuten
 2. Vogelgetswitscher Random Timer
