@@ -1,4 +1,4 @@
-# HTL-VRProject with XRInteractionToolkit !Template!
+# HTL-VRProject with XRInteractionToolkit
 
 ### Project description: 
 This project serves as sample project for spatial audio. 
@@ -36,10 +36,6 @@ Der Spieler betritt einen Raum, die Tür schließt sich hinter ihm und es findet
 Collided der Player (check Tag) mit dem Collider in dem jeweiligen Raum so schließt sich die Tür.
 OnCollisionEnter - Collidiert das richtige Ei mit dem richtigen Collider (Korb)?
 If every collision true - Die Tür öffnet sich wieder und der Player kann sich wieder in das Labyrinth begeben.
-
-## Minigame 2:
-
-## Minigame 2 Programmieren:
 
 ## Funktionen Standpoint 2. Milestone:
 1. Timer 30 Minuten
