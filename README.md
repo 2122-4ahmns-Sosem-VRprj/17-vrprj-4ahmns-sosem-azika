@@ -41,6 +41,13 @@ If every collision true - Die Tür öffnet sich wieder und der Player kann sich 
 
 ## Minigame 2 Programmieren:
 
+## Funktionen Standpoint 2. Milestone:
+1. Timer 30 Minuten
+2. Vogelgetswitscher Random Timer
+3. 1. Minigame fertig - Tür schließt und öffnet sich
+4. Ambient Music Plays OnAwake
+5. Blumen in der Wiese und Holz Wände
+
 ### Limitations/Problems: 
 
 Copyright by smeerws :)
