@@ -29,17 +29,17 @@ Der Spieler betritt einen Raum, die Tür schließt sich hinter ihm und es findet
 Collided der Player (check Tag) mit dem Collider in dem jeweiligen Raum so schließt sich die Tür. OnCollisionEnter - Collidiert das richtige Ei mit dem richtigen Collider (Korb)? If every collision true - Die Tür öffnet sich wieder und der Player kann sich wieder in das Labyrinth begeben.
 
 ## Funktionen:
-Timer 30 Minuten
-Vogelgetswitscher Random Timer
-Minigame fertig - Tür schließt und öffnet sich
-Ambient Music Plays OnAwake
-Blumen in der Wiese und Holz Wände
-Intro mit Story und Musik
-Intro switcht automatisch zur Main Scene
-Minigame ist Spielbar
-Läuft der Timer aus - Failed Screen
-Retry und Quit Button
-Erreicht man das Ende des Labyrinths Success Scene
+1. Timer 30 Minuten
+2. Vogelgetswitscher Random Timer
+3. Minigame fertig - Tür schließt und öffnet sich
+4. Ambient Music Plays OnAwake
+5. Blumen in der Wiese und Holz Wände
+6. Intro mit Story und Musik
+7. Intro switcht automatisch zur Main Scene
+8. Minigame ist Spielbar
+9. Läuft der Timer aus - Failed Screen
+10. Retry und Quit Button
+11. Erreicht man das Ende des Labyrinths Success Scene
 
 ## Development platform:
 OS: Windows 10, Game Engine: Unity 2020.3.18f1, Visual Studio 2019, XR Interaction Toolkit 1.0.0-pre.8, XR Plugin Management 4.2.1, Oculus XR Plugin 1.10.0.
