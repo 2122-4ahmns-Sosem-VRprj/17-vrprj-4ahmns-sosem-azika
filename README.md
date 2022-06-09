@@ -31,18 +31,24 @@ For testing without a headset, use the XR Device Simulator (included in the xr i
 
 Der Spieler betritt einen Raum, die Tür schließt sich hinter ihm und es findet sich ein Bild an der Wand mit 3 verschiedenen Eier Kombinationen. Vor der anderen Wand befinden sich zwei Körbe mit 'Rezepten' darüber. Aus einem weiteren Korb muss man sich das richtige Eier-resultat suchen und in die jeweiligen Körbe geben.
 
-## Minigame 1 Programmieren:
+## Minigame 1 Programmierung:
 
 Collided der Player (check Tag) mit dem Collider in dem jeweiligen Raum so schließt sich die Tür.
 OnCollisionEnter - Collidiert das richtige Ei mit dem richtigen Collider (Korb)?
 If every collision true - Die Tür öffnet sich wieder und der Player kann sich wieder in das Labyrinth begeben.
 
-## Funktionen Standpoint 2. Milestone:
+## Funktionen:
 1. Timer 30 Minuten
 2. Vogelgetswitscher Random Timer
-3. 1. Minigame fertig - Tür schließt und öffnet sich
+3. Minigame fertig - Tür schließt und öffnet sich
 4. Ambient Music Plays OnAwake
 5. Blumen in der Wiese und Holz Wände
+6. Intro mit Story und Musik
+7. Intro switcht automatisch zur Main Scene
+8. Minigame ist Spielbar
+9. Läuft der Timer aus - Failed Screen
+10. Retry und Quit Button
+11. Erreicht man das Ende des Labyrinths Success Scene
 
 ### Limitations/Problems: 
 
