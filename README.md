@@ -69,3 +69,4 @@ Basket, in Blender bearbeitet: https://www.cgtrader.com/free-3d-models/household
 Probleme:
 Rechte Hand zu niedrig
 Trigger reagieren nicht immer
+UI Buttons funktionieren nicht in VR
