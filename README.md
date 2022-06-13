@@ -66,3 +66,6 @@ Grass Flowers Pack Free: https://assetstore.unity.com/packages/2d/textures-mater
 Mobile Wooden Fences: https://assetstore.unity.com/packages/3d/props/exterior/mobile-wooden-fences-54772
 Basket, in Blender bearbeitet: https://www.cgtrader.com/free-3d-models/household/kitchenware/free-basket
 
+Probleme:
+Rechte Hand zu niedrig
+Trigger reagieren nicht immer
