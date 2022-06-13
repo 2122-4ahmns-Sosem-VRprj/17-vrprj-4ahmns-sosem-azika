@@ -7,6 +7,6 @@ public class RestartScript : MonoBehaviour
 {
     public void Restart()
     {
-        SceneManager.LoadScene("MainScene", LoadSceneMode.Single);
+        SceneManager.LoadSceneAsync("MainScene", LoadSceneMode.Single);
     }
 }

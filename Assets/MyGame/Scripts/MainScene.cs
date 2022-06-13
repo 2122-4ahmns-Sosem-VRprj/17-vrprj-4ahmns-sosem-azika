@@ -7,6 +7,6 @@ public class MainScene : MonoBehaviour
 {
     void OnEnable()
     {
-        SceneManager.LoadScene("MainScene", LoadSceneMode.Single);
+        SceneManager.LoadSceneAsync("MainScene", LoadSceneMode.Single);
     }
 }
